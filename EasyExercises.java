@@ -6,12 +6,12 @@ class Main {
   public static void main(String[] args) {
     Scanner myObj = new Scanner(System.in); 
     System.out.print("Enter number: ");
-    int userName = myObj.nextInt();
+    int userInput = myObj.nextInt();
 
-    if ((userName % 2) == 0) {
-      System.out.println("The number " + userName + " is even" );
+    if ((userInput % 2) == 0) {
+      System.out.println("The number " + userInput + " is even" );
     } else {
-      System.out.println("The number " + userName + " is odd" );
+      System.out.println("The number " + userInput + " is odd" );
     }
   }
 }
